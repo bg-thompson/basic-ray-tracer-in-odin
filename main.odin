@@ -36,11 +36,11 @@ import    "core:time"
 ASSEMBLY_OPTIMIZATIONS :: false
 
 // How many rays are cast to estimate the value of a pixel.
-MULTISAMPLE_NUMBER :: 500
+MULTISAMPLE_NUMBER :: 10
 
 // Core camera / rendering properties.
-HIDTH    :: 4 * 270           // Height.
-WIDTH    :: 4 * 480
+HIDTH    :: 1 * 270           // Height.
+WIDTH    :: 1 * 480
 NPIXELS  :: WIDTH * HIDTH
 ORIGIN   :: Point30{13,2,3,0}
 LOOKAT   :: Point30{0,0,0,0}
